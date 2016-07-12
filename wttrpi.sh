@@ -1,5 +1,5 @@
-seconds=900
-zip=12345
+minutes=15
+zip=19026
 
 echo Starting wttrPi...
 sleep 5
@@ -11,6 +11,6 @@ while true; do
   curl -N -s wttr.in/$zip | head -7
   echo
   echo Weather from wttr.in/$zip
-  echo Refreshed every $seconds seconds.
-  sleep $seconds
+  echo Refreshed every $minutes minutes.
+  sleep ${minutes}m
 done
