@@ -1,5 +1,5 @@
 minutes=15
-zip=19026
+zip=12345
 
 echo Starting wttrPi...
 sleep 5
